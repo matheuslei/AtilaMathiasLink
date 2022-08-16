@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* QRCode */
+
+.qrcode { 
+  cursor: pointer;
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(27, 27, 27);
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto 1%
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
+img#avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: rgb(210, 202, 202) solid 4px;
+  transition: 400ms;
+}
+img#avatar:hover {
+  border: #f02c2c solid 4px;
+}
+img#qrcode{
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: rgb(210, 202, 202) solid 4px;
+  transition: 400ms;
+}
+img#qrcode:hover {
+  border: #f02c2c solid 4px;
+}
+
+
+h1 {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+#username {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+ul li a{
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(194, 185, 185);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  transition: background 400ms;
+}
+
+ul li a:hover {
+  background: #f02c2c;
+}
+
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.6;
+  transition: opacity 400ms;
+}
+
+footer:hover {
+  opacity: 1;
+}
+footer a {
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
