@@ -17,7 +17,8 @@ a {
 }
 
 body{
-  background-color: rgb(27, 27, 27);
+  background: url(/img/background.jpg) no-repeat center center fixed; ;
+  background-color: black;
   font-family: Roboto, sans-serif;
 }
 
